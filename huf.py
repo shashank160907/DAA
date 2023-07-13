@@ -63,7 +63,7 @@ while len(nodes) > 1:
  
     # sort all the nodes in ascending order
     # based on their frequency
-    left = heapq.heappop(nodes)
+    left = heapq.heappop(nodes)    
     right = heapq.heappop(nodes)
  
     # assign directional value to these nodes
